@@ -1,6 +1,4 @@
 """
-CCAR-P Ep 06 — RAG Pipeline Design (runnable demo)
-
 Retrieval-Augmented Generation in 4 steps:
 
     DOCUMENTS ──chunk──> CHUNKS ──vectorize──> VECTORS (the index)
