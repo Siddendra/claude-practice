@@ -4,6 +4,7 @@ This doc explains every file and every `STEP` in `run_eval.py` in the order thin
 
 **The demo in one sentence:** we take 10 hand-labelled documents (a *golden set*), have Claude extract invoice fields from each one, grade every extraction two ways — deterministic rules and an LLM judge — and print a stratified report that shows where the pipeline is weak, for about 2 cents.
 
+
 ```
 golden.jsonl ──> extract() ──> grade_rules() ──┐
       (10 docs)   (Claude call)  (pure Python)  ├──> run() ──> report()
